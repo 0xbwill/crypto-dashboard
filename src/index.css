@@ -38,7 +38,6 @@ td {
   padding: 14px;
 }
 
-/* From uiverse.io by @adamgiebl */
 .cssbuttons-io {
   position: relative;
   font-family: inherit;
@@ -47,7 +46,7 @@ td {
   letter-spacing: 0.05em;
   border-radius: 0.8em;
   border: none;
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background: linear-gradient(to right, #000a94, #5d17e9);
   color: ghostwhite;
   overflow: hidden;
   width: 250px;

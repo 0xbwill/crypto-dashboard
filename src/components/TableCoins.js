@@ -11,7 +11,7 @@ const TableCoins = ({ coins, search }) => {
   if (!coins) return <div>no coins</div>
 
   return (
-    <table className="table-auto mt-[30px] drop-shadow-2xl">
+    <table className="table-auto mt-[30px]">
       <thead>
         <tr>
           {titles.map((title, i) => (

@@ -31,7 +31,7 @@ function App() {
               href="#_"
               className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0 text-white text-2xl"
             >
-              CryptoSearch
+              Crypto Search App
             </a>
             <div className="fixed top-0 left-0 z-40 items-center hidden w-full h-full p-3 text-xl bg-gray-900 bg-opacity-50 md:text-sm lg:text-base md:w-3/4 md:bg-transparent md:p-0 md:relative md:flex">
               <div className="flex-col w-full h-auto h-full overflow-hidden bg-white rounded-lg select-none md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
