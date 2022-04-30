@@ -1,13 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #27272a;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input {
+  width: 500px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 0.5rem;
+  outline: none;
 }
+
+.tokenContainer {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tokenContainer span {
+  margin: 0px 3px;
+}
+
+table {
+  background-color: #171717;
+  border-radius: 2rem;
+  color: white;
+}
+
+tr,
+td {
+  padding: 14px;
+}
+
+/* From uiverse.io by @adamgiebl */
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  border: none;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: ghostwhite;
+  overflow: hidden;
+  width: 250px;
+ }
+ 
+ .cssbuttons-io svg {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.5em;
+ }
+ 
+ .cssbuttons-io span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+ }
+ 
+ .cssbuttons-io::before,
+ .cssbuttons-io::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+ }
+ 
+ .cssbuttons-io::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+ }
+ 
+ .cssbuttons-io:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
+ 
+ .cssbuttons-io:active {
+  transform: scale(0.95);
+ }
+ 
