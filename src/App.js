@@ -29,7 +29,7 @@ function App() {
           <div className="relative flex flex-wrap items-center justify-between w-full h-24 mx-auto font-medium md:justify-center">
             <a
               href="#_"
-              className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0 text-white text-2xl"
+              className="w-1/4 py-4 pl-6 pr-4 md:pl-4 md:py-0 text-white text-xl"
             >
               Crypto Search App
             </a>

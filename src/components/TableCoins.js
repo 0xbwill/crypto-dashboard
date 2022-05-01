@@ -5,7 +5,7 @@ const titles = ["#", "Token", "Price", "24h Price Change","24h Volume"];
 
 const TableCoins = ({ coins, search }) => {
   const filteredCoins = coins.filter((coin) =>
-    coin.symbol.toLowerCase().includes(search.toLowerCase())
+    coin.symbol.toLowerCase().includes(search.toLowerCase()) || coin.name.toLowerCase().includes(search.toLowerCase())
   );
 
   if (!coins) return <div>no coins</div>

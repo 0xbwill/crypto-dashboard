@@ -13,7 +13,7 @@ body {
   width: 500px;
   text-align: center;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 0.5rem;
   outline: none;
 }
@@ -42,7 +42,7 @@ td {
   position: relative;
   font-family: inherit;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.05em;
   border-radius: 0.8em;
   border: none;
